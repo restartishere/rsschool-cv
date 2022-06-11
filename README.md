@@ -1,1 +1,1 @@
-# rsschool-cv
+https://restartishere.github.io/rsschool-cv/cv
