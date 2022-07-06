@@ -24,7 +24,6 @@
     main
     {
       display: flex;
-      box-shadow: 250px black;
       color: var(--partscolor);
     }
     nav
@@ -34,6 +33,7 @@
       width: 20vw;
       background-color:var(--partscolor);
       color:white;
+      overflow: auto;
     }
    
     #pic
@@ -120,4 +120,22 @@
   {
     font-size: 1.5rem;
     text-align: justify;
+  }
+
+  @media (orientation: portrait)
+  {
+    main
+    {
+      flex-direction: column;
+    }
+    .device
+    {
+      width: 100vw;
+    }
+    
+    footer
+    {
+      flex-direction: column;
+    }
+    
   }
